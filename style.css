@@ -136,6 +136,53 @@ nav ul {
   object-fit: cover;
 }
 
+.quote {
+  padding: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--quote-bg);
+}
+
+.quote p {
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: light;
+}
+
+.by {
+  font-size: 22px;
+  margin-top: 20px;
+  margin-left: 180px;
+}
+
+.call-to-action {
+  color: var(--main-text);
+  display: flex;
+  align-items: center;
+  padding: 120px;
+}
+
+.call-to-action .board {
+  border-radius: 12px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--call-bg);
+  padding: 40px;
+}
+
+.call-to-action .board button {
+  padding: 10px;
+  width: 150px;
+  height: 50px;
+  color: var(--main-text);
+  background-color: transparent;
+  border: 3px solid var(--main-text);
+  font-size: 18px;
+  border-radius: 12px;
+}
+
 footer {
   background-color: var(--dark-bg);
   color: var(--main-text);
